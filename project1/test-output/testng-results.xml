@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6072" started-at="2019-08-14T14:01:53Z" finished-at="2019-08-14T14:01:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6072" started-at="2019-08-14T14:01:53Z" finished-at="2019-08-14T14:01:59Z">
+      <class name="project1.test1">
+        <test-method status="PASS" signature="setuptest()[pri:0, instance:project1.test1@589838eb]" name="setuptest" is-config="true" duration-ms="632" started-at="2019-08-14T14:01:53Z" finished-at="2019-08-14T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method status="PASS" signature="thetest()[pri:0, instance:project1.test1@589838eb]" name="thetest" duration-ms="5355" started-at="2019-08-14T14:01:54Z" finished-at="2019-08-14T14:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thetest -->
+        <test-method status="PASS" signature="killtest()[pri:0, instance:project1.test1@589838eb]" name="killtest" is-config="true" duration-ms="64" started-at="2019-08-14T14:01:59Z" finished-at="2019-08-14T14:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killtest -->
+      </class> <!-- project1.test1 -->
+      <class name="project1.additiontest">
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:project1.additiontest@42dafa95]" name="testAdd" duration-ms="4" started-at="2019-08-14T14:01:54Z" finished-at="2019-08-14T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testDiv()[pri:0, instance:project1.additiontest@42dafa95]" name="testDiv" duration-ms="1" started-at="2019-08-14T14:01:54Z" finished-at="2019-08-14T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+      </class> <!-- project1.additiontest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
